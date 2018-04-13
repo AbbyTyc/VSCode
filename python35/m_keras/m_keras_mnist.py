@@ -48,6 +48,9 @@ model.add(Dropout(0.5))
 model.add(Dense(num_classes))
 model.add(Activation("softmax"))
 
+# summary the layer information
+model.summary()
+
 # compile
 model.compile(loss="categorical_crossentropy",optimizer="adam",metrics=['accuracy'])
 
