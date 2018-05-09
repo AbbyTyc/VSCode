@@ -57,8 +57,14 @@ import matplotlib.pyplot as plt
 # print(palette[a][:][1])
 
 
-a=np.arange(10)
-b=a**2
-plt.plot(a,b)
-plt.show()
+# a=np.arange(10)
+# b=a**2
+# plt.plot(a,b)
+# plt.show()
 
+
+
+np.random.seed(1)
+print(np.random.random())
+# np.random.seed(1)
+print(np.random.random())
